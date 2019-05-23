@@ -1,9 +1,8 @@
-package io.javabrain.springbootstarter.topic;
+package io.javabrain.springbootstarter.course;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
 @Repository
-public interface TopicRepository extends JpaRepository<Topic, String>{
+public interface CourseRepository extends JpaRepository<Course,String>{
 
 }
